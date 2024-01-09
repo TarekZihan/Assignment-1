@@ -48,6 +48,7 @@
 
 /* 65% Off section*/
 /* 65% Off section */
+/* 65% Off section */
 .categories-section {
     text-align: center;
     margin-top: 120px;
@@ -82,6 +83,8 @@
 }
 
 /* welcome party section */
+/* welcome party section */
+/* welcome party section */
 .welcome-section-background {
     position: relative;
     margin-top: 120px;
@@ -96,8 +99,6 @@
     background-repeat: no-repeat;
     padding: 120px;
     background-size: cover;
-    /* background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url('./resources/Vectorrr.png'); */
-    /* fill: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%); */
 
 
 }
@@ -110,12 +111,11 @@
     line-height: 88px;
     letter-spacing: 7.04px;
 
-
 }
 
 .welcome-section-description {
     color: rgba(255, 255, 255, 0.80);
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 400;
     font-family: Inter;
     margin-top: 25px;
@@ -146,8 +146,213 @@
     bottom: 50px;
     width: 319px;
     height: 420px;
-    /* padding: 0.008px 0px 0px 0px; */
 
+
+}
+
+/* join now section */
+/* join now section */
+/* join now section */
+
+.join-section-background {
+    margin-top: 120px;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    padding: 80px;
+
+}
+
+.join-section-container {
+    text-align: center;
+
+}
+
+.join-section-description {
+    font-family: Inter;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 40px;
+
+}
+
+.join-section-text {
+    color: #F00;
+    font-family: Inter;
+}
+
+.join-section-submit {
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+}
+
+.join-section-button {
+    border-radius: 8px;
+    background: #F00;
+    padding: 16px 32px;
+    border: 0;
+    color: white;
+    cursor: pointer;
+    margin: 0 auto;
+
+}
+
+/* coming soon section */
+/* coming soon section */
+/* coming soon section */
+
+.coming-soon-container {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+}
+
+.coming-soon-title {
+    color: #F00;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.coming-soon-header {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 45px;
+    font-weight: 900;
+
+}
+
+.coming-soon-description {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-top: 10px;
+}
+
+
+.coming-soon-img {
+    border-radius: 100%;
+    border: 10px solid #F00;
+    text-align: center;
+}
+
+.coming-soon-img img {
+    margin: 20px;
+    width: 350px;
+    height: 350px;
+    text-align: center;
+}
+
+.coming-soon-newyear-title {
+    color: #F00;
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 700;
+
+}
+
+.coming-soon-newyear-description {
+    margin-top: 12px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.coming-soon-newyear img {
+    margin-top: 15px;
+}
+
+/* holyday section */
+/* holyday section */
+/* holyday section */
+.holyday-section {
+    margin-top: 100px;
+
+
+
+}
+
+.holyday-section-container {
+    text-align: center;
+}
+
+.holyday-section-title {
+    color: #070211;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+
+
+}
+
+.holyday-section-header {
+    font-family: Merriweather;
+    font-size: 65px;
+    font-weight: 900;
+
+}
+
+.holyday-section-change {
+    color: #F00;
+}
+
+.holyday-section-description {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-top: 18px;
+}
+
+.holyday-section-img {
+    margin-top: 50px;
+    padding-top: 433px;
+    position: relative;
+    height: 100%;
+    width: 100%;
+
+
+
+}
+
+.holyday-section-img .img-1 {
+    position: absolute;
+    bottom: 0;
+    left: 50px;
+}
+
+.holyday-section-img .img-2 {
+    position: absolute;
+    right: 0;
+    top: 0;
+
+
+}
+
+.holyday-section-img .img-3 {
+    border-radius: 16px 0px 16px 16px;
+    background: #F00;
+    height: 229px;
+    width: 100%;
+}
+
+.holyday-section-img .img-4 {
+    position: absolute;
+    top: 150px;
+    right: 305px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 70px;
+    font-weight: 700;
+    width: 280px;
+    height: 280px;
 }
 
 /* portfolio section */
@@ -179,9 +384,9 @@
     margin-top: 15px;
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 400;
-    line-height: 32px;
+    line-height: 22px;
 
 }
 
@@ -226,10 +431,6 @@
     padding: 80px 210px;
 }
 
-/* .subscribe-section-container img{
-    width: 150px;
-height: 150px;
-} */
 .subscribe-header {
     margin-top: 30px;
     color: #070211;
@@ -243,9 +444,9 @@ height: 150px;
     margin-top: 15px;
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 400;
-    line-height: 32px;
+    line-height: 22px;
     /* 160% */
 }
 
